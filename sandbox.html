@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+    <head>
+        <title>Spotify Datify</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="sandss.css">
+        </head>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Spotify Datify</h1>
+        </div>
+        <div class="app">
+            <!--Clicking on this link causes login. This is the hacky workaround-->
+            <a href="https://accounts.spotify.com/authorize?client_id=9d88e28b87f74a918458fad03748a14d&redirect_uri=http://localhost:8888/callback&scope=user-library-read&response_type=token&show_dialog=true">Log In here</a>
+            <div class="search">
+                <form>
+                    <label for="searchterm">Enter an artist or album</label>
+                    <input type="text" id="searchterm">
+                    <input type="button" value="Submit">
+                </form>
+                <div class="searchresults">
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="sandScript.js"></script>
