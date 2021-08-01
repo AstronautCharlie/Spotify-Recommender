@@ -1,3 +1,13 @@
+To start the frontend React app (in frontend directory):
+    execute command: npm start
+
+To start the backend Django app (from Spotify-Recommender directory):
+    execute commands: pipenv shell
+                      cd webapp
+                      python3 manage.py runserver
+
+
+
 Files of interest: 
 - dataReader.py 
 - dataLoader.py 
